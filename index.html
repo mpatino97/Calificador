@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Declara que el documento es HTML5 -->
+<html lang="es">
+
+<head>
+    <!-- Define la codificación de caracteres para soportar acentos y caracteres especiales -->
+    <meta charset="UTF-8">
+    <!-- Asegura que la página sea responsiva en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página que aparece en la pestaña del navegador -->
+    <title>Contador de Calificaciones</title>
+    <!-- Enlaza el archivo CSS para los estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Título principal de la página -->
+    <h1>Contador de Calificaciones</h1>
+
+    <!-- Etiqueta para el nombre del estudiante -->
+    <label for="nombre">Nombre del Estudiante:</label>
+    <!-- Input de texto para ingresar el nombre, con un placeholder como ejemplo -->
+    <input type="text" id="nombre" placeholder="Ej: Ana Pérez">
+
+    <!-- Etiqueta para la calificación -->
+    <label for="calificacion">Ingresa una calificación (0-100):</label>
+    <!-- Input numérico para ingresar calificaciones -->
+    <input type="number" id="calificacion" placeholder="Ej: 85">
+
+    <!-- Botón para añadir una calificación al array -->
+    <button id="botonAgregar">Agregar Calificación</button>
+
+    <!-- Botón para calcular y mostrar los resultados -->
+    <button id="botonCalcular">Calcular Resultados</button>
+
+    <!-- Div donde se mostrarán los resultados dinámicamente -->
+    <div id="resultado">Resultados</div>
+
+    <!-- Enlaza el archivo JavaScript para la lógica -->
+    <script src="javascript.js"></script>
+</body>
+
+</html>
