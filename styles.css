@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fuente principal para el texto del sitio */
+    background-color: #f4f4f4; /* Color de fondo gris claro */
+    max-width: 600px; /* Ancho máximo del contenido */
+    margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontal */
+    padding: 8pc; /* Relleno interno (parece que querías poner '8px' o '8em') */
+}
+
+input, button { 
+    padding: 10px; /* Espacio interno para inputs y botones */
+    margin: 4px 0;  /* Espacio vertical entre los elementos */
+    width: 100%; /* Que ocupen todo el ancho disponible */
+    box-sizing: border-box; /* Incluye el padding y el borde dentro del ancho total */
+    font-size: 16px; /* Tamaño de fuente cómodo de leer */
+}
+
+#resultado {
+    margin-top: 10px; /* Espacio superior */
+    padding: 10px; /* Espacio interno */
+    background-color: #e7f3fe; /* Fondo azul claro */
+    border: 1px solid #b3d4fc; /* Borde azul */
+    border-radius: 16px; /* Bordes redondeados */
+}
